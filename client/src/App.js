@@ -45,7 +45,7 @@ function App() {
               <li>название ракеты :{item.rocket.rocket_name}</li>
               {
                 item.links.flickr_images[0] 
-               ? <li><img width="300px" src={item.links.flickr_images}/></li>
+               ? <li><img width="300px" src={item.links.flickr_images} alt="img" /></li>
                : <li>нет фото</li>
               }
             </ul>
